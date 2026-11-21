@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Contact Base Layer by email or send a message with our contact form."
+    />
+    <link rel="icon" href="images/logo-icon.png" />
+    <title>Contact Us | Base Layer</title>
+  </head>
+  <body class="page-contact">
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header>
+      <nav class="navbar bg-1 border-bottom">
+        <dialog
+          class="drawer drawer-end"
+          tabindex="-1"
+          id="mainNav"
+          aria-labelledby="mainNavLabel"
+        >
+          <div class="drawer-header">
+            <figure>
+              <img
+                src="images/logo-full.png"
+                alt="Base Layer"
+                class="minilogo"
+              />
+            </figure>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="drawer"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="drawer-body" id="inside">
+            <ul class="nav navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="terms.html">Terms of Use</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="privacy.html">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </dialog>
+
+        <div class="container navigation">
+          <div class="nav-links">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="shop.html">Shop</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" aria-current="page" href="contact.html"
+              >Contact</a
+            >
+          </div>
+
+          <div class="logo">
+            <figure>
+              <img
+                src="images/logo-icon.png"
+                alt="Base Layer logo"
+                class="minilogo"
+              />
+            </figure>
+          </div>
+
+          <button
+            class="btn-icon navbar-toggler"
+            type="button"
+            data-bs-toggle="drawer"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main class="container py-12" id="main">
+      <div class="contact-grid">
+        <div>
+          <h1 class="page-heading">Contact Us</h1>
+          <h2 class="h6">Office location</h2>
+          <p>19 Cornel St. Makati City</p>
+          <h2 class="h6">Follow us</h2>
+          <p>Find us on Instagram and Facebook: @baselayer.</p>
+          <h2 class="h6">Business inquiries</h2>
+          <p>
+            <a href="mailto:baselayerorders@gmail.com"
+              >baselayerorders@gmail.com</a
+            >
+          </p>
+          <h2 class="h6">Telephone</h2>
+          <p>
+            To schedule a time to call with us, send an email to
+            <a href="mailto:baselayerorders@gmail.com"
+              >baselayerorders@gmail.com</a
+            >. Sending us your concerns beforehand will give us time to ensure
+            better service for you.
+          </p>
+        </div>
+        <div>
+          <h2 class="h6">Email</h2>
+          <p>
+            Have a question? Feel free to ask us through the form below or send
+            us an email and we’ll get back to you as soon as possible.
+          </p>
+          <p>
+            <strong>baselayerorders@gmail.com</strong><br />Monday - Friday 9am
+            - 5pm (GMT+8)
+          </p>
+          <h2 class="h6" id="form-title">Contact form</h2>
+          <p id="form-help">
+            All fields are required. When you press Send, your email app opens
+            with your message ready. Review it and send it from there.
+          </p>
+          <form
+            id="contact-form"
+            novalidate
+            aria-labelledby="form-title"
+            aria-describedby="form-help"
+          >
+            <div class="field">
+              <label for="c-name">Your name</label>
+              <input
+                type="text"
+                id="c-name"
+                name="c-name"
+                autocomplete="name"
+                aria-describedby="c-name-err"
+                required
+              />
+              <p class="error" id="c-name-err"></p>
+            </div>
+            <div class="field">
+              <label for="c-email">Your email address</label>
+              <input
+                type="email"
+                id="c-email"
+                name="c-email"
+                autocomplete="email"
+                aria-describedby="c-email-err"
+                required
+              />
+              <p class="error" id="c-email-err"></p>
+            </div>
+            <div class="field">
+              <label for="c-subject">Subject</label>
+              <input
+                type="text"
+                id="c-subject"
+                name="c-subject"
+                aria-describedby="c-subject-err"
+                required
+              />
+              <p class="error" id="c-subject-err"></p>
+            </div>
+            <div class="field">
+              <label for="c-message">Message</label>
+              <textarea
+                id="c-message"
+                name="message"
+                rows="5"
+                aria-describedby="c-message-err"
+                required
+              ></textarea>
+              <p class="error" id="c-message-err"></p>
+            </div>
+            <button type="submit" class="bl-btn bl-btn-solid">
+              Send message
+            </button>
+            <p
+              class="form-status"
+              id="form-status"
+              role="status"
+              aria-live="polite"
+            ></p>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-1 py-7 mt-auto" id="contact">
+      <div class="container text-center">
+        <span class="fg-2">© 2026 Base Layer. All rights reserved.</span>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

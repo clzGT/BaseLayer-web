@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/do-good-work.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A bold briefcase graphic and a simple reminder for the workday. Wear it to the office or on your day off."
+    />
+    <link rel="icon" href="images/logo-icon.png" />
+    <title>Do Good Work Tee | Base Layer</title>
+  </head>
+  <body class="page-do-good-work">
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header>
+      <nav class="navbar bg-1 border-bottom">
+        <dialog
+          class="drawer drawer-end"
+          tabindex="-1"
+          id="mainNav"
+          aria-labelledby="mainNavLabel"
+        >
+          <div class="drawer-header">
+            <figure>
+              <img
+                src="images/logo-full.png"
+                alt="Base Layer"
+                class="minilogo"
+              />
+            </figure>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="drawer"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="drawer-body" id="inside">
+            <ul class="nav navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="terms.html">Terms of Use</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="privacy.html">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </dialog>
+
+        <div class="container navigation">
+          <div class="nav-links">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="shop.html">Shop</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+
+          <div class="logo">
+            <figure>
+              <img
+                src="images/logo-full.png"
+                alt="Base Layer logo"
+                class="minilogo"
+              />
+            </figure>
+          </div>
+
+          <button
+            class="btn-icon navbar-toggler"
+            type="button"
+            data-bs-toggle="drawer"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main class="container py-12" id="main">
+      <nav aria-label="Breadcrumb" class="crumbs">
+        <a href="index.html">Home</a> / <a href="shop.html">Shop</a> /
+        <span aria-current="page">Do Good Work Tee</span>
+      </nav>
+      <div class="product-layout">
+        <figure class="product-gallery">
+          <img
+            id="product-img"
+            src="images/do-good-work-white.png"
+            alt="Do Good Work Tee, white, front view"
+          />
+        </figure>
+        <div class="product-info">
+          <h1 class="page-heading">Do Good Work Tee</h1>
+          <p class="product-price">₱499.00</p>
+          <p>
+            A bold briefcase graphic and a simple reminder for the workday. Wear
+            it to the office or on your day off.
+          </p>
+          <p>Large chest print: “Do Good Work” with a briefcase mark.</p>
+          <form
+            id="order-form"
+            novalidate
+            data-product="Do Good Work Tee"
+            data-price="499"
+            data-slug="do-good-work"
+            aria-describedby="order-note"
+          >
+            <fieldset class="field">
+              <legend>Color: <span id="color-name">White</span></legend>
+              <div class="pills">
+                <label class="pill"
+                  ><input
+                    type="radio"
+                    name="color"
+                    value="White"
+                    data-key="white"
+                    checked
+                  /><span
+                    ><i
+                      class="dot"
+                      style="background: #fff"
+                      aria-hidden="true"
+                    ></i
+                    >White</span
+                  ></label
+                ><label class="pill"
+                  ><input
+                    type="radio"
+                    name="color"
+                    value="Gray"
+                    data-key="gray"
+                  /><span
+                    ><i
+                      class="dot"
+                      style="background: #9e9e9e"
+                      aria-hidden="true"
+                    ></i
+                    >Gray</span
+                  ></label
+                ><label class="pill"
+                  ><input
+                    type="radio"
+                    name="color"
+                    value="Black"
+                    data-key="black"
+                  /><span
+                    ><i
+                      class="dot"
+                      style="background: #181818"
+                      aria-hidden="true"
+                    ></i
+                    >Black</span
+                  ></label
+                ><label class="pill"
+                  ><input
+                    type="radio"
+                    name="color"
+                    value="Navy"
+                    data-key="navy"
+                  /><span
+                    ><i
+                      class="dot"
+                      style="background: #030972"
+                      aria-hidden="true"
+                    ></i
+                    >Navy</span
+                  ></label
+                >
+              </div>
+            </fieldset>
+            <fieldset class="field">
+              <legend>Size</legend>
+              <div class="pills">
+                <label class="pill"
+                  ><input type="radio" name="size" value="S" /><span
+                    >S</span
+                  ></label
+                ><label class="pill"
+                  ><input type="radio" name="size" value="M" checked /><span
+                    >M</span
+                  ></label
+                ><label class="pill"
+                  ><input type="radio" name="size" value="L" /><span
+                    >L</span
+                  ></label
+                ><label class="pill"
+                  ><input type="radio" name="size" value="XL" /><span
+                    >XL</span
+                  ></label
+                >
+              </div>
+            </fieldset>
+            <div class="field">
+              <label for="qty">Quantity</label>
+              <div class="qty">
+                <button
+                  type="button"
+                  class="bl-btn"
+                  id="qty-minus"
+                  aria-label="Decrease quantity"
+                >
+                  &minus;</button
+                ><input
+                  type="number"
+                  id="qty"
+                  name="qty"
+                  min="1"
+                  max="20"
+                  value="1"
+                /><button
+                  type="button"
+                  class="bl-btn"
+                  id="qty-plus"
+                  aria-label="Increase quantity"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+            <h2 class="h6">Your details for the email</h2>
+            <div class="field">
+              <label for="o-name">Your name</label
+              ><input
+                type="text"
+                id="o-name"
+                name="o-name"
+                autocomplete="name"
+                aria-describedby="o-name-err"
+                required
+              />
+              <p class="error" id="o-name-err"></p>
+            </div>
+            <div class="field">
+              <label for="o-address">Delivery address</label
+              ><input
+                type="text"
+                id="o-address"
+                name="o-address"
+                autocomplete="street-address"
+                aria-describedby="o-address-err"
+                required
+              />
+              <p class="error" id="o-address-err"></p>
+            </div>
+            <div class="field">
+              <label for="o-phone">Contact number</label
+              ><input
+                type="tel"
+                id="o-phone"
+                name="o-phone"
+                autocomplete="tel"
+                aria-describedby="o-phone-err"
+                required
+              />
+              <p class="error" id="o-phone-err"></p>
+            </div>
+            <button type="submit" class="bl-btn bl-btn-solid order-btn">
+              Order Now
+            </button>
+            <p id="order-note" class="note">
+              Order Now opens your email app with your order written for you.
+              Your order is not placed until you review and send that email and
+              we reply to confirm.
+            </p>
+            <p
+              class="form-status"
+              id="order-status"
+              role="status"
+              aria-live="polite"
+            ></p>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-1 py-7 mt-auto" id="contact">
+      <div class="container text-center">
+        <span class="fg-2">© 2026 Base Layer. All rights reserved.</span>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

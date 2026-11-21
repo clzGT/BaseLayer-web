@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/shop.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Shop all Base Layer tees: Everyday Comfort, Do Good Work and Don't Be Late."
+    />
+    <link rel="icon" href="images/logo-icon.png" />
+    <title>Shop | Base Layer</title>
+  </head>
+  <body class="page-shop">
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header>
+      <nav class="navbar bg-1 border-bottom">
+        <dialog
+          class="drawer drawer-end"
+          tabindex="-1"
+          id="mainNav"
+          aria-labelledby="mainNavLabel"
+        >
+          <div class="drawer-header">
+            <figure>
+              <img
+                src="images/logo-full.png"
+                alt="Base Layer"
+                class="minilogo"
+              />
+            </figure>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="drawer"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="drawer-body" id="inside">
+            <ul class="nav navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="terms.html">Terms of Use</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="privacy.html">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </dialog>
+
+        <div class="container navigation">
+          <div class="nav-links">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="shop.html">Shop</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+
+          <div class="logo">
+            <figure>
+              <img
+                src="images/logo-icon.png"
+                alt="Base Layer logo"
+                class="minilogo"
+              />
+            </figure>
+          </div>
+
+          <button
+            class="btn-icon navbar-toggler"
+            type="button"
+            data-bs-toggle="drawer"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main class="container py-12" id="main">
+      <h1 class="page-heading">Shop</h1>
+      <p class="lead-text">
+        Three tees, one price. All tees are ₱499.00. Choose a tee to pick a
+        color and size.
+      </p>
+      <ul class="product-grid">
+        <li class="product-card">
+          <a href="everyday-comfort.html" class="card-img"
+            ><img
+              src="images/everyday-comfort-white.png"
+              alt="Everyday Comfort Tee, white, front view"
+          /></a>
+          <h2 class="h5">Everyday Comfort Tee</h2>
+          <p class="price">₱499.00</p>
+          <p>
+            A plain, comfortable tee designed for everyday wear. Wear it alone
+            or as a base layer under anything.
+          </p>
+          <a
+            class="bl-btn"
+            href="everyday-comfort.html"
+            aria-label="View product: Everyday Comfort Tee"
+            >View Product</a
+          >
+        </li>
+        <li class="product-card">
+          <a href="do-good-work.html" class="card-img"
+            ><img
+              src="images/do-good-work-white.png"
+              alt="Do Good Work Tee, white, front view"
+          /></a>
+          <h2 class="h5">Do Good Work Tee</h2>
+          <p class="price">₱499.00</p>
+          <p>
+            A bold briefcase graphic and a simple reminder for the workday. Wear
+            it to the office or on your day off.
+          </p>
+          <a
+            class="bl-btn"
+            href="do-good-work.html"
+            aria-label="View product: Do Good Work Tee"
+            >View Product</a
+          >
+        </li>
+        <li class="product-card">
+          <a href="dont-be-late.html" class="card-img"
+            ><img
+              src="images/dont-be-late-white.png"
+              alt="Don't Be Late Tee, white, front view"
+          /></a>
+          <h2 class="h5">Don't Be Late Tee</h2>
+          <p class="price">₱499.00</p>
+          <p>
+            A small alarm clock on the chest for the person who is always on
+            time.
+          </p>
+          <a
+            class="bl-btn"
+            href="dont-be-late.html"
+            aria-label="View product: Don't Be Late Tee"
+            >View Product</a
+          >
+        </li>
+      </ul>
+    </main>
+    <footer class="bg-1 py-7 mt-auto" id="contact">
+      <div class="container text-center">
+        <span class="fg-2">© 2026 Base Layer. All rights reserved.</span>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
