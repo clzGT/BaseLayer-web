@@ -1,0 +1,15 @@
+/* for do-good-work page only. Shared product layout is in style.css */
+
+.page-do-good-work .product-gallery {
+  border-bottom: 6px solid #050a90;
+}
+.page-do-good-work .page-heading {
+  color: #030972;
+}
+
+:root {
+  --brand-navy: #030972;
+  --bar-thickness: 6px;
+}
+
+

@@ -1,0 +1,25 @@
+.page-shop .product-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+.page-shop .product-card {
+  text-align: center;
+}
+.page-shop .card-img {
+  display: block;
+  background: #d9d9d9;
+}
+.page-shop .card-img img {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+}
+.page-shop .price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+}

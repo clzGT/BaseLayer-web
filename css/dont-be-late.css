@@ -1,0 +1,8 @@
+/* for dont-be-late page only. Shared product layout is in style.css */
+
+.page-dont-be-late .product-gallery {
+  border-bottom: 6px solid #0040c8;
+}
+.page-dont-be-late .page-heading {
+  color: #030972;
+}
